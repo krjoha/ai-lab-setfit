@@ -11,14 +11,11 @@ If you prefer to run the code on your own machine, you can use `uv` to create an
 uv sync
 ```
 
-If you would need to install additional packages you can simply add it as a project dependency, or install that package as a `uv` tool.
+To install additional packages, and to use `tensorboard` which we need, you can install that package as a `uv` tool.
 
 ```bash
 # Add as a tool available in your terminal
-uv tool tensorboard
-
-# Or add as a project dependency
-uv add tensorboard
+uv tool install tensorboard
 ```
 
 ## Alternative 2: Setup in Kaggle Notebook (requires account verification with phone number)
