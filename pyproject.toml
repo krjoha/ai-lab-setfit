@@ -1,0 +1,13 @@
+[project]
+name = "ai-lab-setfit"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "datasets>=4.0.0",
+    "sentence-transformers>=5.1.0",
+    "setfit>=1.1.3",
+    "tensorboard>=2.20.0",
+    "transformers>=4.56.1",
+]
