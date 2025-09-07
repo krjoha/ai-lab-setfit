@@ -23,7 +23,7 @@ uv add tensorboard
 
 ## Alternative 2: Setup in Kaggle Notebook (requires account verification with phone number)
 
-It's also possible to use Kaggle Notebooks for this workshop. That will give you access to a free GPU, which significantly speeds up training, and to install new packages from the internet. But it does require you to verify your account with Kaggle to prevent abuse of their service.
+It's also possible to use Kaggle Notebooks for this workshop. That will give you access to a free GPU, which significantly speeds up training, and to install new packages from the internet. But it does require you to verify your account with Kaggle to prevent abuse of their service. You can find the [Kaggle notebook here](https://www.kaggle.com/code/diffus/ai-lab-2-setfit)
 
 ### Phone verification
 
@@ -34,7 +34,7 @@ Log into your account at <https://www.kaggle.com/settings> and follow the instru
 To select the GPU runtime follow these instructions:
 
 1. Open the Kaggle Notebook
-2. Click Settings -> Accelerator -> Choose GPU T4 or P100
+2. Click Settings -> Accelerator -> Choose GPU T4 (P100 will not work, it is older)
 
 ### Install SetFit
 
@@ -55,7 +55,7 @@ If running locally you can simply start a Tensorboard instance on your <http://l
 tensorboard --logdir=results/
 ```
 
-If running in a Kaggle notebook you should follow [these instructions](https://www.kaggle.com/code/aagundez/using-tensorboard-in-kaggle-kernels)
+If running in a Kaggle notebook you might run into issues with the tensorboard.
 
 ## Useful links
 
